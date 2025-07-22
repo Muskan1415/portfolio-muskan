@@ -14,10 +14,9 @@ const Hero = () => {
   return (
     <div id="home" className="hero">
       <motion.img
-        initial={{ scale: 0.2, opacity: 0 }}
-        animate={{ scale: 1.0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.2, ease: circOut }}
-        whileInView={{ scale: 1.1, opacity: 1 }}
+        initial={{ y: -100, scale: 0.8, opacity: 0 }} // Image starts off-screen above
+        animate={{ y: 0, scale: 1, opacity: 1 }} // Drops down into place
+        transition={{ duration: 0.6, delay: 0.2, ease: circOut }}
         viewport={{ once: true }}
         src={logo2}
         alt="Muskan Singh profile"
@@ -28,8 +27,9 @@ const Hero = () => {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: false }}
+          className="name"
         >
-          I'm Muskan Singh,
+          I'm <span> Muskan Singh </span> ,
         </motion.span>{" "}
         frontend developer based in Kolkata.
       </h1>

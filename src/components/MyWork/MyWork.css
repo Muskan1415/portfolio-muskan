@@ -31,7 +31,7 @@
 .mywork-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+  gap: 44px;
   width: 100%;
   justify-items: center;
 }
@@ -40,7 +40,7 @@
   box-sizing: border-box;
   width: 100%;
   max-width: 420px;
-  height: auto;
+  max-height: 320px;
   object-fit: cover;
   border-radius: 8px;
   transition: transform 0.3s ease, border 0.3s;

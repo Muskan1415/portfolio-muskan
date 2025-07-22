@@ -7,7 +7,6 @@
 }
 
 .hero img {
-  margin-top: 90px;
   width: 300px;
   height: 300px;
   object-fit: cover;
@@ -23,23 +22,25 @@
 .hero h1 {
   text-align: center;
   width: 70%;
-  font-size: 90px;
+  font-size: 42px;
   font-weight: 600;
   line-height: 1.2;
 }
-
+.name {
+  font-size: 54px;
+}
 .hero h1 span {
-  background: linear-gradient(270deg, #DF8908, #B415FF 100%);
+  background: linear-gradient(270deg, #df8908, #b415ff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .hero p {
-  width: 60%;
-  text-align: center;
+  width: 85%;
+  text-align: start;
   font-size: 24px;
-  line-height: 40px;
+  line-height: 32px;
   color: #ddd;
 }
 
@@ -57,7 +58,7 @@
 .hero-connect {
   padding: 20px 40px;
   border-radius: 50px;
-  background: linear-gradient(264deg, #DF8908, #B415FF 100%);
+  background: linear-gradient(264deg, #df8908, #b415ff 100%);
   cursor: pointer;
   transition: 0.3s;
 }
@@ -69,13 +70,13 @@
 .hero-resume {
   padding: 20px 60px;
   border-radius: 50px;
-  border: 2px solid #FFF;
+  border: 2px solid #fff;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .hero-resume:hover {
-  border-color: #B415FF;
+  border-color: #b415ff;
 }
 
 .anchor-link {
@@ -114,18 +115,18 @@
 @media (max-width: 768px) {
   .hero h1 {
     margin-top: 30px;
-    font-size: 48px;
+    font-size: 32px;
     width: 90%;
   }
-
+  .name {
+    font-size: 36px;
+  }
   .hero p {
     font-size: 18px;
     width: 90%;
     line-height: 30px;
   }
-
   .hero img {
-    margin-top: 20px;
     width: 220px;
     height: 220px;
   }
@@ -146,12 +147,10 @@
   .hero h1 {
     font-size: 36px;
   }
-
   .hero p {
     font-size: 16px;
     line-height: 26px;
   }
-
   .hero img {
     margin-top: 70px;
     width: 180px;
