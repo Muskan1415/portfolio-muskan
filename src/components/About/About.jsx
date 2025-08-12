@@ -110,7 +110,7 @@
 
 import React from "react";
 import theme_pattern from "../../assets/theme_pattern.svg";
-import logo2 from "../../assets/logo2.jpg";
+import m from "../../assets/m.jpg";
 import { motion } from "framer-motion";
 
 const containerVariants = {
@@ -144,7 +144,7 @@ const About = () => {
       <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 items-center w-full">
         {/* Left Image */}
         <motion.img
-          src={logo2}
+          src={m}
           alt="Profile"
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}

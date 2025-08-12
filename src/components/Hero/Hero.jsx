@@ -73,7 +73,7 @@
 
 
 import React from "react";
-import logo2 from "../../assets/logo2.jpg";
+import m from "../../assets/m.jpg";
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -95,7 +95,7 @@ const Hero = () => {
         animate={{ y: 0, scale: 1, opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.2, ease: "circOut" }}
         viewport={{ once: true }}
-        src={logo2}
+        src={m}
         alt="Muskan Singh profile"
         className="w-[180px] h-[180px] sm:w-[220px] sm:h-[220px] md:w-[260px] md:h-[260px] lg:w-[300px] lg:h-[300px] object-cover rounded-full cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 mt-8"
       />
