@@ -138,7 +138,7 @@ const Hero = () => {
           Connect with me
         </div>
         <a
-          href="https://drive.google.com/file/d/1-Iu8CoZQvFaNIXw_cwauRW9HD88cW9vN/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1cpEzb-F_HvGgpT7BKSwfS7n5VbcNckVT/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white no-underline"
