@@ -7,9 +7,14 @@ import project6 from '../assets/project6.png';
 
 const mywork_data = [
     {
+      w_no: 1,
+        w_name: "Web design",
+        w_img: project1  
+    },
+    {
         w_no: 1,
         w_name: "Web design",
-        w_img: project1
+        w_img: project_7
     },
     {
         w_no: 2,
