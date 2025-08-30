@@ -6,15 +6,11 @@ import project5 from '../assets/project5.png';
 import project6 from '../assets/project6.png';
 
 const mywork_data = [
-    {
-      w_no: 1,
-        w_name: "Web design",
-        w_img: project1  
-    },
+
     {
         w_no: 1,
         w_name: "Web design",
-        w_img: project_7
+        w_img: project1
     },
     {
         w_no: 2,
@@ -37,10 +33,12 @@ const mywork_data = [
         w_img: project5
     },
     {
-        w_no: 6,
+    
+      w_no: 7,
         w_name: "Web design",
-        w_img: project6
-    }
+        w_img: project8 
+    },
+
 ];
 
 export default mywork_data;
